@@ -1,0 +1,149 @@
+* {
+  font-family: "Iceberg", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  
+}
+
+/*Style navbar awal*/
+.navbar-nav .nav-link {
+  margin-right: 2rem;
+}
+
+/*Style navbar akhir*/
+
+.jumbotron {
+  background-image: url("https://i.ibb.co/q5mPHM6/zhaenx.jpg");
+  background-size: cover;
+  color: #ffffff;
+  padding-top: 7em;
+  overflow: hidden;
+
+}
+
+/* awalicons*/
+.icons {
+  font-size: 3rem;
+}
+.icons a {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #fff;
+  position: relative;
+  text-decoration: none;
+}
+.icons a:hover {
+  color: #0dcaf0;
+}
+.icons a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 2px;
+  background-color: #0dcaf0;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+.icons a:hover::after {
+  transform: scaleX(1);
+  box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.8);
+}
+
+.icons a:hover ion-icon {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+/* akhiricons*/
+
+/*Style Section Awal*/
+#Aboutme {
+  position: relative;
+  background-color: var(--bs-dark);
+  color: #fff;
+  padding-top: 6rem;
+}
+#Galery {
+  position: relative;
+  background-color: var(--bs-dark);
+  color: #fff;
+}
+#Certificate {
+  position: relative;
+}
+/*Style Section Akhir*/
+
+/*awal Footer*/
+#footer {
+  text-align: center;
+  background-color: var(--bs-dark);
+  padding-bottom: 3em;
+  color: #fff;
+  font-size: 20px;
+}
+#footer a {
+  text-decoration: none;
+  transition: text-decoration 0.3s ease;
+  color: #fff;
+  position: relative;
+}
+#footer a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -2px;
+  height: 2px;
+  background-color: #0dcaf0;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+#footer a:hover::after {
+  transform: scaleX(1);
+  box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.8);
+}
+#footer a:hover {
+  color: #0dcaf0;
+}
+#footer ion-icon{
+  position: absolute;
+  font-size: 1.5rem;
+  padding-left: 3px;
+}
+/* akhir Footer*/
+
+/*efek gambar awal*/
+.card {
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
+
+
+/*link navbar home,contac dll */
+.nav-link:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+  color: #0dcaf0;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 10%;
+  right: 0;
+  top: 75%;
+  height: 1px;
+  background-color: #0dcaf0;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+  width: 80%;
+}
+
+.nav-link {
+  text-decoration: none;
+  transition: text-decoration 0.2s ease;
+  position: relative;
+}
+
+/*Navbar akhir*/
